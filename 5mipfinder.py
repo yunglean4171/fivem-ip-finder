@@ -27,7 +27,7 @@ def searchip():
         messagebox.showerror("ERROR!", "Connection error!")
 
 
-oki = Button(gui, text="Search", padx=40, command=searchip)
+oki = Button(gui, text="Find", padx=40, command=searchip)
 oki.grid(row=2, column=1)
 
 gui.mainloop()
